@@ -9,6 +9,8 @@
 }
 img{
     height: 70vh;
+    border-radius: 24px;
+    border: inset 4px #d88d7caf;
 }
 header{
     height: 100vh;  /* Establecemos el 100% de la altura de la pantalla como altura de la caja header */
@@ -50,22 +52,17 @@ a{
     color: #d88d7c;
 }
 .separator{
-    width: 100%;
-    padding: 2vh 0;
-    background-color: #21141D;
+    width: 80%;
+    border: 2px solid #d88d7c;
+    margin: 0 auto;
 
 }
-.separator p{
-    color: #d88d7c;
-    font-size: 24px;
-    width: 80%;
-    margin: 0 auto;
-}
 main{
-    padding: 8vh;
+    padding: 4vh 8vh 8vh 8vh;
     background-color: #21141D;
 }
 section{
+    padding: 8vh;
     height: 100vh;
     display: flex;
     align-items: center;
