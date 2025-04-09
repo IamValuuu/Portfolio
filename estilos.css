@@ -7,6 +7,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+img{
+    height: 70vh;
+}
 header{
     height: 100vh;  /* Establecemos el 100% de la altura de la pantalla como altura de la caja header */
     width: 100%;    /* Le damos el 100% de ancho*/
@@ -34,7 +37,7 @@ header nav a{
     text-decoration: none;/* Le quitamos la decoracion por defecto que tienen los enlaces */
     display: flex;
     align-items: center;
-    color: #d88d7c;
+    color: white;
     transition: 0.5s;   /* el transition se pone en los estilos de la etiqueta y en su hover asi el efecto de transicion tambien aplica a cuando se saca el cursor del objeto*/
 
 }
@@ -87,6 +90,9 @@ section div{
 }
 section div ul {
     font-family: "Lexend Exa", sans-serif;
+}
+ul{
+    padding-left: 8vh;
 }
 footer{
     background-color: #21141D;
