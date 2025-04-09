@@ -54,11 +54,11 @@ a{
 .separator{
     width: 80%;
     border: 2px solid #d88d7c;
-    margin: 0 auto;
+    margin: 1vh auto 4vh auto;
 
 }
 main{
-    padding: 4vh 8vh 8vh 8vh;
+    padding: 2vh 8vh 8vh 8vh;
     background-color: #21141D;
 }
 section{
